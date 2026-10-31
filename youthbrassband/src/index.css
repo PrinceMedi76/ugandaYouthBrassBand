@@ -69,7 +69,7 @@ body {
 .vandm{
   position: absolute;
   bottom: 30px;
-  margin-left: 70px;
+  margin-left: 20px;
   font-size: 20px;
 }
 .center {
@@ -80,7 +80,6 @@ body {
 }
 .donate {
   color: white;
-  display: flex;
   position: relative;
   margin-top: 8px;
   margin-bottom: 15px;
