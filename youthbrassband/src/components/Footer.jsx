@@ -9,8 +9,8 @@ import { MdMarkEmailUnread } from "react-icons/md";
 const Footer = () => {
   return (
     <footer className='footer max-h-full max-w-full justify-between bg-black p-10'>
-        <div className='flex justify-between gap-3 max-h-fit'>
-            <div className='card-logo'>
+        <div className='flex justify-between gap-3 max-h-fit row g-4'>
+            <div className='card-logo col-12 col-md-6'>
                 <img src="./src/assets/newlogo.png" class="card" alt="..."/>
                 <div className='card-logo-links'>
                     <ul className='flex justify-between gap-4'>
@@ -35,7 +35,7 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
-                <div class="">
+                <div class="col-12 col-md-6">
                     <div class="card-body">
                         <h4 class="card-title">CONTACTS</h4>
                         <p class="card-text">P.O. BOX 214788 Kampala - Uganda</p>
@@ -44,7 +44,7 @@ const Footer = () => {
                         <p class="card-subtitle fg-3">Location : <br/> Maganjo, Namalere Village, Wakiso District.</p>
                     </div>
                 </div>
-                <div class="">
+                <div class="col-12 col-md-6">
                     <div class="card-body">
                         <h4 class="card-title">PARTNERS</h4>
                         <img class='card-p-logo' src='./src/assets/Sounds.jpg' alt='...'/>
@@ -53,7 +53,7 @@ const Footer = () => {
                         <button type="button" class="btn"><a href="https://www.sounds-of-brass.co.uk/african-youth-band-partner">Donate ❤️</a></button>
                     </div>
                 </div>
-                <div class="" style={{maxWidth: "320px"}}>
+                <div class="col-12 col-md-6" style={{maxWidth: "320px"}}>
                     <div class="card-body">
                         <h4 class="card-title">Donate</h4>
                         <p class=" fg-3">
@@ -68,7 +68,7 @@ const Footer = () => {
                 </div>
         </div>
 
-      <div className='footer-copyright flex justify-between pt-20'>
+      <div className='footer-copyright flex justify-between pt-20 col-12 col-md-6'>
         <p>&copy; 2026 Donated By PrinceMedi with ❤️</p>
         <p>Privacy Policy | Terms And Conditions</p>
       </div>
